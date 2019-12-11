@@ -1,0 +1,19 @@
+{
+  "name": "bellum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Manuel Ignacio Sánchez",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}

@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "name": "fraxface",
+        "description": "Es un equipo de nueva generación que brinda resultados asombrosos. Su mecanismo de acción es por medio de su Radiofrecuencia Bipolar Fraccionada, funciona entregando la energía fraccionada de la radiofrecuencia mediante una matriz de electrodos. Produce un calor dirigido por medio del cual se estimula la capa mas interna de la piel (la dermis) no afectando prácticamente la capaz más superficial (la epidermis). El calor fraccionado que se genera en puntos de la dermis, actúa lesionado esos puntos y consecuentemente desencadenando una respuesta curativa por parte de esta capa interna de la piel. El tejido sano que rodea a los puntos quemados o lesionados de la dermis, puede ser también estimulado secundariamente por el calor, teniendo como efecto una aceleración del proceso curativo, y dándole a la piel un aspecto de piel firme y rejuvenecida.",
+        "whoCanDoIT": "Todas aquellas personas que quieren reducir mejorar la apariencia de la piel, independientemente de la edad y el sexo. Se aplica de forma localizada (rostro, abdomen, glúteos, flancos, muslos, brazos...)",
+        "recomendedSessions": "Hasta 3 sesiones anuales.",
+        "previousDiagnose": true,
+        "indications": null,
+        "results": [
+            "Aspecto más natural de la piel.", 
+            "Recuperación del volumen.",
+            "Mayor firmeza y tensión.",
+            "Mejoría del brillo y del tono.",
+            "Mejoría de la textura.",
+            "Mejor hidratación.",
+            "Mejora en las líneas finas.",
+            "Eliminación de queratosis."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "HIFU",
+        "description":"El tratamiento HIFU consiste en la aplicación de un haz de ultrasonido de alta frecuencia y alta energía en la piel, para remodelar su tejido, mediante ablación térmica. En este proceso, los tejidos colindantes no quedan afectados, pues esta es una técnica no invasiva, que trae múltiples ventajas para el paciente.",
+        "whoCanDoIT": "Todas aquellas personas que necesitan reafirmar y recuperar el tejido en cualquier zona del cuerpo, independientemente de la edad y del sexo.",
+        "recomendedSessions": "HIFU es uno de los pocos tratamientos estéticos que requieren pocas sesiones al año. Como regla general se necesitan entre dos a tres aplicaciones para conseguir el resultado deseado.",
+        "previousDiagnose": true,
+        "indications": "NO se puede APLICAR en pacientes con heridas abiertas, acné severo, marcapasos, implantes metálicos, queloides, en tratamiento con anticoagulantes, embarazadas, herpes simple, enfermedades autoinmunes, epilépticos.",
+        "results": [
+            "Se consigue el deseado estiramiento y firmeza del tejido con una técnica NO INVASIVA.",
+            "minimiza los signos de envejecimiento de la piel gracias a la regeneración de colágeno y elastina."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Criolipolisis",
+        "description": "La Criolipolisis es un tratamiento dermatológico/estético no invasivo, cuyo objetivo es destruir las células grasas (adipositos) bajando su temperatura para que se descompongan y sean eliminadas mediante fluidos, sin dañar el resto de las células de la piel. La temperaturas utilizadas son por debajo los cero grados.",
+        "whoCanDoIT": "Todas aquellas personas que quieren reducir centímetros de contorno, independientemente de la edad y el sexo. Se aplica de forma localizada (abdomen, glúteos, flancos, muslos, brazos...)",
+        "recomendedSessions": "Hasta 4 sesiones mensuales.",
+        "previousDiagnose": true,
+        "indications": null,
+        "results":["Rreducción de grasa sin dolor y sin riesgo."]
+    },
+    {
+        "id": 4,
+        "name": "VelaVelvet",
+        "description": "Velaslim Plus utiliza la luz infrarroja, sumada a la energía de radiofrecuencia y la succión. Esta combinación produce un nivel intenso de calor aplicado a las células adiposas, al tejido conectivo circundante y a las fibras dérmicas subyacentes de colágeno. La absorción y el calentamiento de la piel estimulan el aumento de la producción de colágeno y de elastina.",
+        "whoCanDoIT": "Todas aquellas personas que desean eliminar la celulitis, independientemente del sexo y la edad. Se aplica de forma localizada (abdomen, glúteos, flancos, muslos, brazos...)",
+        "recomendedSessions": "De 6 a 10 sesiones semanales.",
+        "previousDiagnose": true,
+        "indications": null,
+        "results": [
+            "Reduce la adiposidad y modela el contorno corporal.",
+            "Atenúa la celulitis y mejora la circulación local.",
+            "Estimula la formación de colágeno.",
+            "Modela el contorno corporal y favorece el drenaje linfático.",
+            "Brinda resultados contundentes sin tiempos de inactividad o molestias de importancia."
+        ]
+    }
+]

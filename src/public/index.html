@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/6752f69b1d.js" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Leaflet-->    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+    <!--Styles-->
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Bellum - Alquiler de Aparatología Estética</title>
+</head>
+
+<body>
+    <!--Navigation Starts-->
+    <nav>
+        
+        <div class="logo">
+            <a href="/"> Bellum</a>
+        </div>
+        <div class="toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="menu">
+            <li> <a href="#servicios">Servicios</a></li>
+            <li> <a href="#equipos">Equipos</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li> <a href="#contacto">Contacto</a></li>
+        </ul>
+
+    </nav>
+    <!--Navigation ends-->
+    <!--CTA starts-->
+    <main id="home" class="">
+
+        <div class="container">
+            <h1>
+                Somos <strong>Bellum</strong>
+            </h1>
+            <p>Alquilamos equipamiento de estética </p>
+            <div class="word_slider">
+                para
+                <ul>
+                    <li>Clínicas.</li>
+                    <li>Profesionales.</li>
+                    <li>Consultorios.</li>
+                    <li>Centros.</li>
+                    <li>Clínicas.</li>
+                </ul>
+            </div>
+            <a href="#contacto" class="button primary-btn">contactanos</a>
+        </div>
+
+    </main>
+    <!--CTA ends-->
+    <!--Services starts-->
+    <section id="servicios">
+        <div class="container">
+            <div class="row">
+
+                <h1>Que ofrecemos?</h1>
+
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-5 col-sm-12">
+
+                    <p>
+                        En <strong>Bellum</strong> nos dedicamos al alquiler de todo tipo de
+                        aparatología estética, armamos planes según tus necesidades y presupuesto,
+                        por el tiempo que los necesites. Nuestra idea es <strong>potenciar tu
+                            negocio</strong>. Junto a nosotros vas a brindar <strong>nuevos tratamientos
+                        </strong> a tus pacientes y así <strong>potenciar tu negocio.</strong>
+                    </p>
+                    <p>
+                        El alquiler de equipos es la principal solución para probar como ampliar
+                        los servicios de tu negocio <strong> sin realizar una gran inversión económica
+                        .</strong> ¿Que esperás? generá mas ganancias ofreciéndole a tus clientes <strong>
+                        los mejores tratamientos a un bajo costo.</strong>
+                    </p>
+
+                </div>
+
+                <div class="col-md-7">
+                    <div class="row p-4">
+                        <div class="col-6 col-sm-3">
+                            <div class="service text-center">
+                                <i class="fas fa-cog"></i>
+                                <p>Tecnología estética de vanguardia.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <div class="service">
+                                <i class="fas fa-award"></i>
+                                <p>Capacitamos a tu personal.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <div class="service">
+                                <i class="fas fa-shipping-fast"></i>
+                                <p>Logística a cargo nuestro.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <div class="service">
+                                <i class="fas fa-chart-line"></i>
+                                <p>Invertí menos, ganá más! </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row pt-4">
+                <div class="col-md-12">
+                    <div class="banner banner-contacto">
+                        <h3>Queres ofrecer lo último a tus pacientes?</h3>
+                        <a href="#contacto" class="button primary-btn">conocer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Services ends-->
+    <!--equipment starts-->
+    <section id="equipos" class="background">
+
+        <div class="carousel">
+            <a class="prev">
+                <i class="fas fa-arrow-circle-left"></i>
+            </a>
+            <!--carousel starts-->
+            <div class="carousel-mask">
+                <ul class="carousel-container">
+                    <!--carousel items-->
+                    <li class="item currentSlide">
+                        <div class="product">
+                            <picture>
+                                    <source media="(max-width: 700px)" srcset="img/frax_face_sm.png">
+                                    <img src="img/frax_face.png" alt="" style="width:auto;">
+                            </picture>
+                            <aside>
+                                <h1>Fraxface</h1>
+                                <p>
+                                    Radiofrecuencia controlada que recupera,
+                                    renueva y rejuvenece la piel del rostro.
+                                </p>
+                                <a href="" class="button primary-btn mt-4">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    más info
+                                </a>
+                            </aside>
+                        </div>
+                    </li>
+                
+                    <li class="item">
+                        <div class="product">
+                            <picture>
+                                    <source media="(max-width: 700px)" srcset="img/crio_sm.png">
+                                    <img src="img/crio.png" alt="" style="width:auto;">
+                            </picture>
+                            <aside>
+                                <h1>Criolipolisis</h1>
+                                <p>
+                                    Procedimiento dermatológico <strong>no invasivo</strong> 
+                                    para la eliminación de grasa corporal.
+                                </p>
+                                <a href="" class="button primary-btn mt-4">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    más info
+                                </a>
+                            </aside>
+                        </div>
+                    </li>
+                
+                    <li class="item">
+                        <div class="product">
+                            <picture>
+                                    <source media="(max-width: 700px)" srcset="img/vela_velvet_sm.png">
+                                    <img src="img/vela_velvet.png" alt="" style="width:auto;">
+                            </picture>
+                            <aside>
+                                <h1>VelaVelvet</h1>
+                                <p>
+                                    Solución estética para <strong>reducción de
+                                    la circunferencia corporal y la celulitis.
+                                    </strong>
+                                </p>
+                                <a href="" class="button primary-btn mt-4">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    más info
+                                </a>
+                            </aside>
+                        </div>
+                    </li>
+                    <!--li>
+                    Add slide to the carousel here.
+                    </li-->
+                </ul>
+            </div>
+            <!--carousel ends-->
+            <a class="next">
+                <i class="fas fa-arrow-circle-right"></i>
+            </a>
+        </div>
+        <div class="carousel-nav">
+            <button class="dot currentDot"></button> 
+            <button class="dot"></button>
+            <button class="dot"></button>
+            <!--button>
+                If you add a slide you must add a button here.
+            </button-->
+        </div>
+
+        <div class="foreground text-center"></div>
+
+    </section>
+    <section class="cards pt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!--product card starts-->
+                <div class="col-6 col-md-3">
+                    <div class="product-card">
+
+                        <img src="/img/fraxface_m.png" alt="" srcset="">
+
+                        <div>
+                            <h3>Fraxface</h3>
+                            <p>Desde $3.000,00 por día</p>
+                            <a href="" class="button primary-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                ver más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--product card ends-->
+
+                <div class="col-6 col-md-3">
+
+                    <div class="product-card">
+
+                        <img src="/img/crio_m.png" alt="" srcset="">
+
+                        <div>
+                            <h3>Criolipolisis</h3>
+                            <p>Desde $3.500,00 por día</p>
+                            <a href="" class="button primary-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                ver más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="product-card">
+
+                        <img src="/img/vela_velvet_m.png" alt="" srcset="">
+
+                        <div>
+                            <h3>Vela Velvet</h3>
+                            <p>Desde $2.000,00 por día</p>
+                            <a href="" class="button primary-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                 ver más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="product-card">
+
+                        <img src="/img/hifu_m.png" alt="" srcset="">
+
+                        <div>
+                            <h3>HIFU</h3>
+                            <p>Desde $1500,00 por día</p>
+                            <a href="" class="button primary-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                 ver más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--equipment ends-->
+    <!--About us starts-->
+    <section id="nosotros"></section>
+    <section class="container us">
+            <div class="row">
+
+                <div class="col-md-4 pb-3">
+                    <h1>Nosotros.</h1>
+                    <a href="https://www.instagram.com/bellumaparatologia/?hl=es-la" 
+                        class="button secondary-btn" target="_blank">
+                        <i class="fab fa-instagram "></i>
+                        bellumaparatologia
+                    </a>
+                </div>
+        
+                <div class="col-md-8 left-line">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Eveniet explicabo vitae quidem debitis omnis, quibusdam 
+                        inventore enim pariatur architecto iusto odio error ab natus, 
+                        magnam placeat! Inventore fuga cum repellendus.
+                    </p>
+            
+                    <div class="row align-items-center">
+                        <div class="col profile">
+                            <img src="img/ana.png" alt="" srcset="">
+
+                            <p>
+                                <strong>Ana Laura Montiel</strong>
+                                <br>
+                                <i>Asistente en Medicina Estética</i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col col-md-4 extract">
+                        <h3>Compromiso y calidad.</h3>
+                        <p>
+                            En <strong>Bellum</strong> nuestros pilares se basan en ofrecer a 
+                            nuestros clientes los mejores equipos del mercado. Hacemos de la 
+                            calidad nuestro principal compromiso.
+                        </p>
+                    </div>
+                    <div class="col col-md-4 extract">
+                        <h3>Capacitaciones.</h3>
+                        <p>
+                            Es nuestro interés que todos nuestros clientes puedan aprovechar todo 
+                            el potencial de nuestro equipamiento y mejoren sus prácticas diarias.
+                        </p>
+                    </div>
+                    <div class="col col-md-4 extract">
+                        <h4>
+                            Apostamos al desarrollo de nuestros clientes y de todos los Profesionales
+                            de la medicina estética.
+                        </h4>
+                    </div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col-md-12">
+                        <div class="banner banner-bella">
+                            <img src="img/LOGO_PNG_ORIGINAL.png" alt="">
+                            <a href="" class="button secondary-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                conocé nuestro sitio
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--About us ends-->
+    
+    <!--Contact starts-->
+    <section id="contacto" class="pb-5">
+        <div class="container">
+            <div class="row pt-5 mt-5 align-items-center">
+                <div class="col-12 col-md-4">
+                    <h1>Contactanos.</h1>
+                </div>
+                <div class="col-8 col-md-6 left-line">
+                    <h3>Te ofrecemos nuestra experiencia para crecer.</h3>
+                </div>
+                <div class="col-2 col-md-1 text-right">
+                    <a href="mailto:bellum@gmail.com" class="contact-btn">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </div> 
+                <div class="col-2 col-md-1 text-right">
+                    <a href="tel:1130302775" class="contact-btn">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                </div> 
+            </div>
+        </div>
+        <div class="row form-contact">
+            <div class="container">
+                <div class="row pt-3 pb-3 mt-3">
+                    <div class="col-12 col-md-4">
+                        <!--Banner space-->
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <form action="">
+                            <div class="row py-1">
+                                <div class="col-12 col-md-6">
+                                    <label for="name">nombre</label>
+                                    <input type="text" name="name" id="name"
+                                    placeholder="ingresa tu nombre">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <label for="tel">telefono</label>
+                                    <input type="tel" name="tel" id="tel"
+                                    placeholder="ingesá tu número de teléfono.">
+                                </div>
+                            </div>
+                            <div class="row py-1">
+                                <div class="col">
+                                    <label for="email">email</label> <br>
+                                    <input type="email" name="email" id="email"
+                                    placeholder="nombre@dominio.algo">
+                                </div>
+                            </div>
+                            <div class="row py-1">
+                                <div class="col">
+                                    <label for="msg">mensaje</label> <br>
+                                    <textarea name="msg" id="msg" cols="50" rows="5"
+                                    placeholder="déjanos tu consulta"></textarea>
+                                </div>
+                            </div>
+                            <div class="row py-1">
+                                <div class="col text-center">
+                                    <a href="" class="button primary-btn">  enviar  </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-3 text-center">
+           <a href="">Bellum Aparatología®</a> Copyright © 2019 | Todos los derechos reservados
+    </footer>
+    <!--Contact ends-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="carousel.js"></script>
+
+
+</body>
+
+</html>
